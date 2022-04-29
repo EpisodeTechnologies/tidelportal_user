@@ -1,0 +1,4 @@
+.profile_body .input-group .has-float-label {
+    display: table-cell;
+    pointer-events: none !important;
+}

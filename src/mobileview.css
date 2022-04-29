@@ -1,0 +1,2029 @@
+@media screen and (max-width: 771px) {
+  .pc-profile-page {
+    padding-right: 0px;
+  }
+
+  .Side-nav {
+    margin-left: -250px;
+  }
+
+  .logo_box {
+    padding-right: 0px;
+  }
+
+  .non_veg_item_body img {
+    width: 90%;
+    margin: 20px 0px;
+  }
+
+  .PB_logo {
+    margin-right: 77px;
+    padding: 27px 44px;
+  }
+
+  body {
+    overflow-x: hidden !important;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .container_text {
+    padding-left: 0px;
+  }
+
+  .container_inner_text {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .footer-copyright {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0.5;
+    margin: 60px 3px 30px 3px;
+  }
+
+  .body_container {
+    display: flex;
+    margin-top: 100px;
+    background-image: url("https://magazine.fortevillageresort.com/wp-content/uploads/2019/03/vivek-singh-cucina-indiana-def-770x513.jpg");
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .bothSidePaddiing {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  /* .Details_btn {
+  font-size: 23px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  border: solid 3px #606266;
+  background-color: #0000;
+  padding: 1px 8px;
+  border-radius: 50%;
+  margin-left: 15px;
+  color: #fff;
+} */
+  /* .Details_btn .heart {
+  color: #5773ff;
+  font-size: 20px;
+} */
+  /* .Body_img_icon img {
+  width: 40px;
+  height: 40px;
+} */
+
+  .mob-social-media {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px;
+
+  }
+
+  .container_inner_text {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .container_inner_text h1 {
+    font-size: 40px;
+  }
+
+  .container_inner_text h3 {
+    font-size: 23px;
+  }
+
+  .banner_image {
+    margin-top: 10px;
+  }
+
+  .banner_image img {
+    display: none;
+  }
+
+  .banner_btn_box {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 0px;
+    align-items: center;
+
+    justify-content: flex-end;
+  }
+
+  .ticket_margin {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .Rectangle-146 {
+    width: 240px;
+    height: 124px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #050608, #0b0d10 53%, #16161a);
+  }
+
+  .Rectangle-147 {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 8.5px 0 3px 10px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #fffefe, #606060 238%);
+  }
+
+  .Non-Veg {
+    /* width: 90px; */
+    font-size: 10px;
+
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .Veg {
+    /* width: 90px; */
+    font-size: 10px;
+
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .Rectangle-Ticket {
+    width: 330px;
+    height: 350px;
+    margin: 68px 0px 0px 0px;
+    padding: 0px;
+    border-radius: 9px;
+    background-color: white;
+    position: relative;
+  }
+
+  .Rectangle-36 {
+    width: 80px;
+    height: auto;
+    margin: 0px 0px 0px 9px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #050608, #0b0d10 53%, #16161a);
+  }
+
+  .Rectangle-cart {
+    display: none;
+  }
+
+  .mobileviewcart {
+    display: inline;
+  }
+
+  .container_inner_text-ticket {
+    padding-left: 0px;
+    /* margin-right: 0px; */
+  }
+
+  .tickert_firstsection {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .tickert_firstsection:nth-child(1) {
+    display: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 4px 0px;
+    /* margin-top: 0px; */
+  }
+
+  .tickert_firstsection:nth-child(2) {
+    display: black;
+    font-size: 35px;
+    font-weight: bold;
+    /* margin-top: 0px; */
+  }
+
+  .was {
+    display: black;
+    font-size: 10px;
+    font-weight: bold;
+    /* margin-top: 0px; */
+  }
+
+  .price_999 {
+    display: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+
+    /* margin-top: 0px; */
+  }
+
+  .now {
+    display: black;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .nowprice {
+    display: black;
+    padding-left: 20px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .Pannaiyar-Party-ticket {
+    font-family: "Bebas";
+    letter-spacing: 0px;
+    font-size: 25px;
+    width: auto;
+  }
+
+  .plus-112 {
+    width: 25px;
+    height: 25px;
+    /* background-color: #5571fa; */
+    margin-top: 5px;
+    margin-right: 0px;
+    float: right;
+    color: #c6351e;
+    font-size: 15px;
+    font-weight: bold;
+
+    /* border-radius:50px; */
+    /* padding:3px 4px; */
+  }
+
+  .count-113 {
+    /* background-color: #5571fa; */
+    margin-right: 10px;
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .minus-114 {
+    width: 25px;
+    height: 25px;
+    /* background-color: #fff; */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: right;
+    color: #c6351e;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .Union-33 {
+    width: 80px;
+    margin: 6px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    background-color: #c6351e;
+    border-radius: 50px;
+  }
+
+  .item_names {
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .Different-meal-course-ticket {
+    /* margin-top: 5px; */
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+  }
+
+  .Tickert_price {
+    /* padding: 0px 10px 0px 0px; */
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    color: #000;
+  }
+
+  /* checkout page */
+  .container_checkout_text {
+    padding-left: 10px;
+  }
+
+  .Food_Name {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .FoodItem {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .Item_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+    height: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 22px 20px 53px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    /* background-color: rgba(94, 121, 255, 0.96); */
+    background-color: #c6351e;
+  }
+
+  .checkout-cart {
+    margin: 100px 0px 0px 10px;
+  }
+
+  .body_checkout_container {
+    /* display: flex; */
+    margin-top: 10px;
+  }
+
+  .Rectangle-AddressDetails {
+    width: 100%;
+    /* height: 300px; */
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 9px;
+    background-color: #2a2a30;
+    /* border:6px solid blue; */
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    /* position: relative; */
+  }
+
+  #alreadyuser {
+    color: white;
+    font-family: 'roboto';
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .reverse-col {
+    flex-direction: column-reverse;
+  }
+
+  .Gift-Coupon-input {
+    width: 170px;
+    height: 34px;
+    margin: 0px 0px 0px 0;
+    border-radius: 12px;
+    border: solid 1px #707070;
+    background-color: #fff;
+    outline: none;
+    padding: 0px 20px;
+  }
+
+  .Address-loaction {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 30px 20px;
+  }
+
+  .Address1-Map {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 25px 0px;
+  }
+
+  .map-image {
+    border-radius: 15px;
+  }
+
+  .Address1-details {
+    color: #d6d8da;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 20px 30px;
+    text-align: center;
+  }
+
+  .Account-Details {
+    margin: 0px 0px 0px 0px;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+
+    color: #fff;
+  }
+
+  .Rectangle-Location {
+    width: 100%;
+    /* height: 80px; */
+    margin: 0px 0px 20px 0px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 9px;
+    background-color: #2a2a30;
+  }
+
+  .Rectangle-Payment {
+    width: 100%;
+    /* height: 80px; */
+    margin: 0px 0px 50px 0px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 9px;
+    background-color: #2a2a30;
+  }
+
+  .changelocation {
+    margin-right: 10px;
+    float: right;
+    font-size: 15px;
+    color: gold;
+    cursor: pointer;
+    display: none;
+  }
+
+  .profile_body {
+    /* background-image: linear-gradient(to bottom, #000, #1f1f27 65%, #1d1d24 70%, #24242b 80%); */
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .profile_container {
+    /* height: 500px; */
+    height: auto;
+    margin: 50px 10px 10px 10px;
+    /* padding: 42px 593px 222px 81px; */
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #050608, #0b0d10 53%, #16161a);
+  }
+
+  .form_input_field {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+  }
+
+  .form_input_field input {
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    /* margin-top: 10px; */
+    border: 1px solid #707070;
+  }
+
+  .form-control:disabled,
+  .form-control[readonly] {
+    opacity: 1;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .has-float-label label,
+  .has-float-label>span {
+    position: absolute;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -0.5em;
+    left: 0.75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px;
+    color: white;
+  }
+
+  .has-float-label label::after,
+  .has-float-label>span::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #000;
+    height: 2px;
+    top: 50%;
+    left: -0.2em;
+    right: -0.2em;
+    z-index: -1;
+  }
+
+
+  .form_input_field input::placeholder {
+    color: #d6d8da;
+  }
+
+  .profile_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* padding-bottom: 50px; */
+  }
+
+  .profile_images-26 {
+    width: 288px;
+    height: 288px;
+    margin: 2px 76px 42.5px 0;
+    border-radius: 70px;
+    background-color: tomato;
+  }
+
+  .profile_image_square {
+    width: 188px;
+    height: 188px;
+
+    border-radius: 60px;
+  }
+
+  .Edit_camera_icon {
+    position: absolute;
+    background-color: #c6351e;
+
+    padding: 7px 10px;
+    border-radius: 20px;
+    margin-top: 180px;
+    margin-left: 130px;
+  }
+
+  .Edit_camera_icon i {
+    font-size: 25px;
+    color: white;
+  }
+
+  .edit_profile_body {
+    /* background-image: linear-gradient(to bottom, #000, #1f1f27 65%, #1d1d24 70%, #24242b 80%); */
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .edit_profile_container {
+    /* height: 500px; */
+    height: auto;
+    margin: 50px 10px 10px 10px;
+    /* padding: 42px 593px 222px 81px; */
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #050608, #0b0d10 53%, #16161a);
+  }
+
+  .edit_form_input_field {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px;
+  }
+
+  .edit_form_input_field input {
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 10px 10px 10px 13px;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 45px;
+  }
+
+  .edit_form_input_field label {
+    color: white;
+    margin-top: 10px;
+    /* background-image: url("../public/img/redeemed.png.png"); */
+  }
+
+  .edit_form_input_field input::placeholder {
+    color: #d6d8da;
+  }
+
+  .edit_profile_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .edit_profile_images-26 {
+    width: 288px;
+    height: 288px;
+    margin: 2px 76px 42.5px 0;
+    border-radius: 70px;
+    background-color: tomato;
+  }
+
+  .edit_profile_image_square {
+    width: 188px;
+    height: 188px;
+    border-radius: 60px;
+  }
+
+  .edit_Edit_camera_icon {
+    position: absolute;
+    background-color: #c6351e;
+    padding: 7px 10px;
+    border-radius: 20px;
+    margin-top: 180px;
+    margin-left: 130px;
+  }
+
+  .edit_Edit_camera_icon i {
+    font-size: 25px;
+    color: white;
+  }
+
+  .mobile-view-save-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pc-view-save-btn {
+    display: none !important;
+  }
+
+  .image_container_crop {
+    position: absolute;
+
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+  }
+
+  /* ##################################################### */
+  /* Ticket manager page */
+
+
+
+  .ticket_manager_nav {
+    /* background-color: #000; */
+    color: #707070;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+
+  .ticket_manager_nav ul {
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0rem;
+  }
+ 
+
+  .ticket_manager_nav ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 10px 2px 10px 10px;
+    margin: 0px 0px;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .Rectangle_ticket_container {
+    margin: 0px 10px 10px 10px;
+    padding-top: 100px;
+  }
+
+  .Rectangle_ticket_body {
+    width: 100%;
+    /* height: 100vh; */
+    border-radius: 15px;
+    padding: 20px 20px;
+    color: white;
+    background-color: #2a2a30;
+  }
+
+  .Rectangle_ticket_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .Rectangle_ticket_Details {
+    width: 260px;
+    /* height: 484px; */
+    margin: 3px 10px 20px 10px;
+    padding: 5px 10px 17px 10px;
+    border-radius: 12px;
+    border: solid 1px #707070;
+    background-image: linear-gradient(to bottom,
+        #fff 43%,
+        #b4b4b4 77%,
+        #b9b9b9,
+        #808080);
+    color: #000;
+    text-align: center;
+  }
+
+  .Rectangle_ticket_Details h2 {
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+  .Rectangle_ticket_Details h1 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .Rectangle_ticket_Details h4 {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .Rectangle_ticket_Details p {
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 17px;
+  }
+
+  .Rectangle_ticket_Details b {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .ticket_number span {
+    color: #5c76f7;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* .ticket_number { */
+  /* text-align: left; */
+  /* } */
+  .ticket_number img {
+    margin-right: 10px;
+
+    vertical-align: baseline;
+  }
+
+  /* ##################################################### */
+  /* Ticket manager page */
+
+  /* About page */
+  /* ##################################################### */
+  /* about section */
+  .about_main_container {
+    padding: 100px 0px 0px 0px;
+  }
+
+  .about_body_container {
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    border-radius: 45px;
+    background-image: linear-gradient(to top, #1d1d24 0%, #040405 100%);
+  }
+
+  .about_section {
+    margin: 0px 0px 0px 10px;
+  }
+
+  .about_section .about {
+    flex-direction: column-reverse;
+
+  }
+
+  .about_section_title h1 {
+    margin: 0px 0px 0px 0px;
+    /* -webkit-text-stroke: 1px #030303; */
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777;
+  }
+
+  .about_section_left_1 {
+    margin-top: 40px;
+    color: #fafafa;
+  }
+
+  .about_section_left_1 h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+  }
+
+  .about_section_left_1 p {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fafafa;
+  }
+
+  .about_section_left_2 {
+    margin-top: 40px;
+    color: #fafafa;
+  }
+
+  .about_section_left_2 h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+  }
+
+  .about_section_left_2 p {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fafafa;
+  }
+
+  .about_section_right_1 img {
+    width: 100%;
+    height: 400px;
+    padding-right: 0px;
+    padding: 10px 0px;
+
+  }
+
+  /* about section */
+  /* process section */
+
+  .process_section {
+    margin: 0px 0px 0px 10px;
+
+  }
+
+  .process_section_title h1 {
+    margin: 20px 0px 0px 0px;
+    /* -webkit-text-stroke: 1px #030303; */
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777;
+  }
+
+  .process_section_right_1 {
+    margin-top: 0px;
+    color: #fafafa;
+  }
+
+  .process_section_right_1 h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+  }
+
+  .process_section_right_1 p {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fafafa;
+  }
+
+  .process_section_right_2 {
+    margin-top: 40px;
+    color: #fafafa;
+  }
+
+  .process_section_right_2 h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+  }
+
+  .process_section_right_2 p {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fafafa;
+  }
+
+  .process_section_right_3 {
+    margin-top: 40px;
+    color: #fafafa;
+  }
+
+  .process_section_right_3 h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fafafa;
+  }
+
+  .process_section_right_3 p {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fafafa;
+  }
+
+  .process_section_left_1 img {
+    width: auto;
+    height: 430px;
+    padding: 10px 0px;
+
+  }
+
+  /* process section */
+
+
+
+  /* story section */
+  .story_section {
+    margin: 0px 0px 0px 10px;
+
+  }
+
+  .story_section_title h1 {
+    margin: 20px 0px 0px 0px;
+    /* -webkit-text-stroke: 1px #030303; */
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777;
+  }
+
+
+  #year_right {
+    border: 0px solid #f9f9fc;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    flex-direction: column-reverse;
+  }
+
+  /* story section */
+
+  /* testimonial section */
+  .testimonial_section {
+    margin: 0px 0px 0px 50px;
+  }
+
+  .testimonial_section_title h1 {
+    margin: 40px 0px 40px 0px;
+    /* -webkit-text-stroke: 1px #030303; */
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777;
+  }
+
+  /* testimonial section  */
+
+  /* gallery section */
+  .gallery_section {
+    margin: 0px 0px 0px 10px;
+    padding-bottom: 60px;
+  }
+
+  .gallery_section_title h1 {
+    margin: 40px 0px 40px 0px;
+    /* -webkit-text-stroke: 1px #030303; */
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777;
+  }
+
+  .gallery img {
+    margin: 20px;
+    width: 230px;
+
+  }
+
+  /* gallery section  */
+
+  /* ##################################################### */
+  /* About page */
+
+  /* ############################################################ */
+  /* customerService */
+  .contact_form {
+    padding: 30px 10px 30px 10px;
+
+  }
+
+  .location_section {
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .location_section div {
+
+    margin-top: 30px;
+
+  }
+
+  .border-start1 {
+    border-left: 0px solid #dee2e6 !important;
+  }
+
+  /* customerService */
+
+  /* ############################################################ */
+
+
+
+
+  /* notification section */
+  .popover {
+    position: absolute;
+    margin-top: 20px;
+    top: 20px;
+    left: 0;
+    z-index: 9999999999999;
+    display: block;
+    max-width: 100%;
+    font-family: "roboto";
+    width: 100%;
+    min-height: 376px;
+    max-height: auto;
+
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    white-space: normal;
+    line-break: auto;
+    font-size: .875rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0.3rem;
+  }
+
+  .popover-title {
+    background-color: rgba(0, 0, 0, .04);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: flex;
+    flex: none;
+    margin: 0;
+    padding: 8px 12px;
+    position: relative;
+    font-family: "roboto";
+    font-size: 20px;
+  }
+
+  .notification-count {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background-color: #FA4612;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+  }
+
+  .notifi-content-body {
+    padding: 10px 0px;
+    height: 100vh;
+    overflow: auto;
+  }
+
+  .notifi-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .04);
+    align-items: center;
+
+  }
+
+  .img-body {
+    display: flex;
+
+  }
+
+  .message {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .Dismiss-button {
+    background-color: #FA4612;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+  }
+
+  .no-notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .Earlier-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .Earlier {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+
+  }
+
+  .seeall {
+    color: #0027eb;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* notification section */
+
+
+  /* version 4 ticket design*/
+  .ticket_filter_body {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .ticket_filter_body .active {
+    background: #FA4612;
+  }
+
+  .ticket_filter_body>div {
+    padding: 5px 15px;
+    /* margin: 0px 5px; */
+    /* background: #4DC591; */
+    border-radius: 7px;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* or 16px */
+    color: #FFFFFF;
+    /* background: rgba(196, 196, 196, 0.6); */
+    border-radius: 7px;
+  }
+
+  .filter_icon {
+    color: white;
+    font-size: 25px;
+  }
+
+  .filter_icon:hover {
+    color: white;
+  }
+
+  .ticket_tag {
+    display: flex;
+    margin: 20px 0px;
+    text-align: left;
+
+  }
+
+  .tag1 {
+    width: 20%;
+    padding-right: 10px;
+
+  }
+
+  .tag1 span {
+    color: white;
+  }
+
+  .tag2 {
+    width: 80%;
+    margin-left: 10px;
+  }
+
+  .tag2 span {
+    color: white;
+  }
+
+  /* ticket body */
+  .ticket_tb {
+    display: flex;
+    margin: 0px 0px;
+
+  }
+
+  .tb1 {
+    width: 20%;
+    padding-right: 10px;
+
+  }
+
+  .tb1 span {
+    color: white;
+    font-size: 11px;
+  }
+
+  .tb2 {
+    width: 80%;
+    margin-left: 10px;
+    padding: 10px 0px;
+  }
+
+  .tb2 span {
+    color: white;
+
+  }
+
+  .order-track {
+    border-right: 1px solid rgba(196, 196, 196, 0.3);
+    position: relative;
+  }
+
+  .point-dot {
+    position: absolute;
+    background-color: #C4C4C4;
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    right: -5.5px;
+    border-radius: 50%;
+  }
+
+  .ticket_bg_body {
+    width: 265px;
+    height: 180px;
+    background: #4DC591;
+    border-radius: 21px;
+    padding: 10px 10px 0px 10px;
+  }
+
+
+  .tk_body_top {
+    display: flex;
+  }
+
+  .tk_body_top .tk_body_top_left {
+    width: 25%;
+  }
+
+  .tk_body_top .tk_item_image {
+    width: 100%;
+    height: 115px
+  }
+
+  .tk_body_top .tk_body_top_right {
+    width: 75%;
+    padding: 0px 0px 0px 10px;
+    color: white;
+  }
+
+  .top_right_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .top_right_div .top_right_div_name_details {}
+
+  .top_right_div_name_details .food_meal_time {
+    font-size: 8px;
+  }
+
+  .top_right_div_name_details .food_name {
+    font-size: 12px;
+  }
+
+  .center_right_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .center_right_div .center_right_div_day {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .center_right_div_day .food-symbol-nonveg {
+    /* position: absolute; */
+    font-size: 20px;
+    margin: 0px;
+    color: red;
+    background: white;
+    /* top: 32px; */
+    border: 2px solid red;
+    /* right: 16px; */
+    padding: 3px;
+  }
+
+  .bottom_right_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .bottom_right_div_purchase_time .purchase_time_title {
+    font-size: 8px;
+  }
+
+  .bottom_right_div_purchase_time .time_counter {
+    font-size: 12px;
+  }
+
+  .bottom_right_div_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px 10px;
+  }
+
+  .bottom_right_div_details .details_content {
+    color: #4DC591;
+    font-size: 13px;
+  }
+
+  .tk_remainding_ticket_count {
+    font-size: 10px;
+    color: white;
+    margin: 3px 0px;
+  }
+
+  .hr_line_div {
+    border-bottom: 1px solid #ffffff;
+  }
+
+
+  .tk_bootom_price_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .reduce-price_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .reduce-price_body .reduce-price {
+    text-decoration-line: line-through;
+    font-size: 10px;
+    padding-right: 5px;
+  }
+
+  .reduce-price_body .given_price {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .add_cart_btn_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0xp 10px 0px 0px;
+
+  }
+
+  .add_cart_btn_body .minu_btn {
+    color: white;
+  }
+
+  .add_cart_btn_body .count_value {
+    padding: 1px 8px 0px 8px
+  }
+
+  .add_cart_btn_body .plus_btn {
+    color: white;
+  }
+
+  .selected_date_panel {
+    background-color: white;
+    height: 100px;
+    margin: 10px;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 93px; */
+    /* z-index: 9898989889; */
+  }
+
+  .selected_date_panel_fixed {
+    background-color: white;
+    height: 100px;
+    /* margin: 10px; */
+    position: fixed;
+    width: 100%;
+    top: 93px;
+    z-index: 9;
+  }
+
+  .panel_body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+
+  .panel_cointer1 {
+    align-items: center;
+    display: flex;
+  }
+
+  .panel_cointer1 .panel_content_date {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .panel_content_day {
+    padding-left: 10px;
+  }
+
+  .panel_content_day .day {
+    font-size: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 101.52%;
+    color: #BCC1CD;
+    margin-bottom: 5px;
+  }
+
+  .panel_content_day .day .day_text {
+
+    text-transform: uppercase;
+  }
+
+  .panel_content_day .month_year {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 101.52%;
+    color: #BCC1CD;
+    text-transform: uppercase;
+  }
+
+  .panel_cointer2 {
+    background: #E9F4EF;
+    border-radius: 11px;
+    padding: 8px 25px;
+    cursor: pointer;
+  }
+
+  .panel_cointer2 .day {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 101.52%;
+    color: #4DC591;
+  }
+
+
+  /* version 4 ticket design*/
+
+  /* version 5 ticket design*/
+  .ticket_margin {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 30px 0px;
+  }
+
+  .new-ticket-body {
+    /* margin-top: 20px; */
+    border-left: 2px solid rgba(196, 196, 196, 0.6);
+
+    /* height: 300px; */
+  }
+
+  .new-ticket-container {
+    padding: 30px 0px;
+
+
+  }
+
+  .new-ticket-header {
+
+
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    position: relative;
+    /* position: absolute; */
+    /* top:0px */
+  }
+
+  .new-ticket-dot {
+    position: absolute;
+    ;
+    top: -32px;
+    left: -7.5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: orange;
+  }
+
+  .new-ticket-time {
+    position: absolute;
+    ;
+    top: -40px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-ticket-time span {
+    color: #000;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .new-ticket-available {
+    position: absolute;
+    ;
+    top: -40px;
+    right: 10px;
+  }
+
+  .new-ticket-available span {
+    color: #000;
+    font-size: 13px;
+  }
+
+  .new-ticket-box {
+    margin-bottom: 30px;
+    height: 185px;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+  }
+
+  .ticket-box-container {
+    padding: 10px;
+  }
+
+  .ticket-top-box {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .ticket-top-right {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+  }
+
+  .ticket-food-image img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .ticket-food-mealtime {
+    color: green;
+  }
+
+  .ticket-food-name {
+    font-size: 15px;
+    font-family: 'roboto';
+    font-weight: bolder;
+    text-transform: capitalize;
+    /* padding-right: 5px; */
+    /* color: gray; */
+
+  }
+
+  .ticket-center-box {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .center-dot {
+    /* width: 30px;
+  height: 30px;
+  color: green;
+  position: absolute; */
+    position: absolute;
+    top: 10px;
+    left: -27.5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: green;
+  }
+
+  .ticket-reduce-price {
+    text-decoration-line: line-through;
+    font-size: 13px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: gray;
+  }
+
+  .ticket-left-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sale-price {
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: #6207ca;
+  }
+
+  .ticket-left-text {
+    font-size: 13px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: gray;
+  }
+
+  .time-left-text {
+    font-size: 13px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: gray;
+  }
+
+  .ticket-left-count {
+    font-size: 18px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: orangered;
+  }
+
+  .time-left-count {
+    font-size: 18px;
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-right: 5px;
+    color: rgb(233, 210, 30);
+  }
+  .time-left-count span{
+    position: absolute;
+  }
+  .top {
+    height: 30px;
+    width: 60px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border: 1px solid gray;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .new-ticket-hr-div {
+    margin: 5px 0px;
+    border-bottom: 1px solid gray;
+  }
+
+  .ticket-bottom-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .details-body {
+    border: 1px solid gray;
+    padding: 4px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'roboto';
+
+
+  }
+
+  .add-cart-body {
+    border: 1px solid gray;
+    width: 100px;
+    height: 35px;
+    /* padding: 4px 45px; */
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .add-btn {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .add-cart-body .minus {
+    left: -1px;
+    top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .minus .icon {
+    font-size: 20px;
+    color: #4D3D96;
+
+  }
+
+  .plus .icon {
+    font-size: 20px;
+    color: #4D3D96;
+  }
+
+  .add-cart-body .plus {
+    right: -1px;
+    top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cart-count {
+    font-size: 23px;
+  }
+
+  .details-body .text {
+    font-size: 17px;
+    font-family: 'roboto';
+    font-weight: 500; 
+    padding-right: 5px; 
+    color: #4D3D96;
+  }
+  .show_ticket_filter_body {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px 20px 10px;
+    align-items: center;
+    width: auto;
+}  /* version 5 ticket design*/
+}
+
+  
+
+@media screen and (max-width: 1001px) {
+  .modal .menu_details {
+    padding: 0px 30px;
+  }
+
+  .non_veg_item_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    flex-direction: column;
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modal .menu_details {
+    padding: 0px 0px;
+  }
+
+  .non_veg_item_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+
+  .non_veg_item_body p {
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #777;
+  }
+
+  .modal .menu_details .menu_pannaiyar_party p {
+    font-family: "roboto";
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fafafa;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .tag_body .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    border-radius: 46px;
+    border: solid 1px #707070;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fafafa;
+    padding: 3px 20px 4px;
+    background-color: #707070;
+  }
+
+  .tag_body .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link {
+    border-radius: 46px;
+    border: solid 1px transparent;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fafafa;
+    padding: 3px 20px 2px;
+    background-color: transparent;
+  }
+
+  .modal .menu_details .menu_pannaiyar_party h1 {
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.25px;
+    text-align: center;
+    color: #fafafa;
+    padding: 10px 0px;
+  }
+
+  .modal .menu_details .menu_pannaiyar_party p {
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fafafa;
+  }
+
+}

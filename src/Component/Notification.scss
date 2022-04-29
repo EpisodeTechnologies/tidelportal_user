@@ -1,0 +1,57 @@
+.main_body {
+  .notification-body {
+    padding: 130px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+
+    .notification-container {
+      background-color: white;
+      min-height: 800px;
+      height: auto;
+      width: 800px;
+
+      .notification-container-head {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        .notification-container-head-left {
+          font-size: 30px;
+          font-family: "roboto";
+          font-weight: 800;
+        }
+      }
+      .notifi-content-body1{
+          padding: 10px 0px;
+      }
+    }
+  }
+
+
+}
+.copy-coupon {
+ 
+    padding: 3px 10px;
+    cursor: pointer;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    
+    font-family: 'roboto'; 
+    font-size: 16px;
+    margin-left: 5px;
+   
+}
+
+@media screen and (max-width: 771px) {
+  .main_body .notification-body {
+    padding: 100px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+  .main_body .notification-body .notification-container {
+    background-color: white;
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+}
+}

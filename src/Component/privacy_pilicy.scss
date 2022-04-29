@@ -1,0 +1,49 @@
+.about-container {
+    padding: 130px 150px 15px 150px;
+    .terms-and-conditions {
+  
+      background-color: #000;
+      color: #fff;
+      border-radius: 20px;
+      padding:25px;
+      text-align: justify;
+      .header{
+          font-family: "rubik";
+          padding: 20px 0px;
+          font-size: 40px;
+          color:#fff;
+          font-weight: bold;
+      }
+      .title{
+          padding: 20px 0px;
+          font-size: 24px;
+          color:#fff;
+          font-weight: bold;
+      }
+      .sub-title{
+          padding: 10px 0px;
+          font-size: 20px;
+          color:#fff;
+          font-weight: normal;
+      }
+      .description{
+          padding: 5px 25px;
+          font-size: 16px;
+          color:#fff;
+          font-weight: 100;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 771px) {
+  .about-container .terms-and-conditions .header {
+    font-family: "rubik";
+    padding: 20px 0px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .about-container {
+    padding: 130px 0px 15px 0px;
+  }
+  }

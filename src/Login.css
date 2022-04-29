@@ -1,0 +1,161 @@
+/* a {
+    text-decoration: none;
+  }
+   */
+   .login-body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+   }
+.logincard {
+  font-family: sans-serif;
+  /* height: 100vh; */
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 10em !important; */
+  margin-bottom: 3em;
+  border-radius: 10px;
+  background-color: #2a2a30;
+  padding: 1.8rem;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+#subtitle {
+  text-align: center;
+  margin-top: 10px;
+
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+}
+#subtitle a {
+  padding-left: 5px;
+  color: #c6351e;
+}
+
+.btn-text {
+  margin: 0;
+}
+
+.or {
+  text-align: center;
+  /* font-weight: bold; */
+
+  line-height: 0.1em;
+  margin: 10px 0px;
+}
+.or1 {
+  text-align: center;
+  /* font-weight: bold; */
+  font-family: "roboto";
+  font-size: 12px;
+  /* line-height: 0.1em; */
+  margin: 10px 0px;
+}
+.or span {
+  padding: 0 10px;
+}
+.or1 span {
+  padding: 0 10px;
+}
+#email-login {
+  display: flex;
+  flex-direction: column;
+}
+#email-login label {
+  color: white;
+}
+
+#phoneNUmberinput {
+  padding: 15px 20px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+#phoneNUmberinput::placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+.cta-btn {
+  background-color: #c6351e;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+.forget-pass {
+  text-align: center;
+  display: block;
+}
+.create-account {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.create-account .msg {
+  display: flex;
+  font-family: "roboto";
+  margin-top: 10px;
+}
+.create-account .msg span{
+ cursor: pointer;
+ color: #c6351e;
+ font-family: "roboto";
+}
+.spinner-border {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: -0.125em;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: .75s linear infinite spinner-border;
+  animation: .75s linear infinite spinner-border;
+}
+.create-account .forgot-pass{
+  margin-top: 10px;
+  cursor: pointer;
+  color: #c6351e;
+  font-family: "roboto";
+ }
+ .pass-open-eye{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+ }
+ @media screen and (max-width: 700px){
+
+  .logincard1 {
+    font-family: sans-serif;
+    /* height: 100vh; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10em !important; */
+    margin-bottom: 3em;
+    border-radius: 10px;
+    background-color: #2a2a30;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgb(0 0 0 / 10%);
+    margin-left: -10px;
+}
+
+
+ }

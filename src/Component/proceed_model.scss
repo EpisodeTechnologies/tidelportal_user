@@ -1,0 +1,111 @@
+#modal-proceed {
+  .close-icon {
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .modal .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    border-radius: 20px;
+    border: solid 1px #707070;
+    background-color: white !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    color: #000;
+  }
+  .m-body {
+    .mess-content {
+      color: red;
+      text-align: center;
+    }
+    .remove-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // text-align: center;
+      padding: 10px 10px;
+
+      span {
+        background-color: red;
+        padding: 7px 11px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//
+// returncheckout ####################################################### scss start
+
+#modal-returncheckout {
+  .close-icon {
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .modal .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    border-radius: 20px;
+    border: solid 1px #707070;
+    background-color: white !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    color: #000;
+  }
+  .m-body {
+    .mess-content {
+      color: rgb(53, 53, 220);
+      text-align: center;
+    }
+
+    .button-body{
+
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      margin-top: 20px;
+    .cart-modify {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // text-align: center;
+      padding: 10px 10px;
+
+      span {
+        background-color: rgb(26, 26, 168);
+        padding: 7px 11px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .continue-checkout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // text-align: center;
+      padding: 10px 10px;
+
+      span {
+        background-color: green;
+        padding: 7px 11px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  }
+}

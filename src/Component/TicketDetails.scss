@@ -1,0 +1,397 @@
+.details_page_body {
+  background-color: white;
+  position: relative;
+
+  .carousel-root {
+    position: relative;
+  }
+  .carousel .thumbs-wrapper {
+    margin: 20px;
+    overflow: unset;
+    display: none;
+  }
+  .carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.8;
+    // border: 0;
+    // border-top: 1px #ccc solid;
+    box-shadow: inset 0px 11px 8px -10px rgb(0, 0, 0),
+      inset 0px -11px 8px -10px rgb(0, 0, 0);
+  }
+
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .image-body {
+    position: relative;
+    background-color: black;
+    .top-menu {
+      position: absolute;
+      top: 5px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      .icon {
+        .iomd {
+          font-size: 26px;
+          color: white;
+          margin-left: 0px;
+        }
+      }
+      span {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+    .bottom-ticket-count {
+      position: absolute;
+      bottom: 0px;
+      background-color: #62ea93;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 15px;
+      //   align-items: center;
+      height: 30px;
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .time-left {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+    .food-type {
+      .food-nonveg {
+        position: absolute;
+        font-size: 25px;
+        margin: 0px;
+        color: red;
+        background: white;
+        border: 2px solid red;
+        bottom: 60px;
+        right: 16px;
+        padding: 4px;
+      }
+
+      .food-veg {
+        position: absolute;
+        font-size: 25px;
+        margin: 0px;
+        color: #009542;
+        background: white;
+        border: 2px solid #009542;
+        bottom: 60px;
+        right: 16px;
+      }
+    }
+  }
+
+  .detail-body {
+    padding: 10px 10px 70px 10px;
+
+    .food-time {
+      span {
+        color: #0d915e;
+        font-size: 18px;
+      }
+    }
+    .food-name {
+      margin: 10px 0px;
+      span {
+        font-size: 20px;
+        font-family: "roboto";
+        font-weight: 900;
+      }
+    }
+
+    .food-tk-details {
+      background-color: #ff75071a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      margin: 10px 0px;
+      padding: 10px 30px;
+      .ticket-name {
+        .ticket-lable {
+          span {
+            font-size: 12px;
+          }
+        }
+        .ticket-value {
+          span {
+            font-size: 16px;
+            color: rgb(208, 162, 77);
+          }
+        }
+      }
+      .ticket-count {
+        .count-lable {
+          span {
+            font-size: 12px;
+          }
+        }
+        .count-value {
+          span {
+            font-size: 16px;
+            color: rgb(189, 16, 16);
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .description-body {
+      .description {
+        margin: 10px 0px;
+        span {
+          color: black;
+          font-weight: 900;
+          font-size: 15px;
+        }
+      }
+      .description-content {
+        color: gray;
+        font-size: 13px;
+      }
+    }
+    .teams-condition {
+      .teams-head {
+        margin: 10px 0px;
+        span {
+          color: black;
+          font-weight: 900;
+          font-size: 15px;
+        }
+      }
+      .teams-list-body {
+        ul {
+          li {
+            color: rgb(53, 160, 218);
+            font-size: 13px;
+            span {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+    .ticket-validation-details {
+      background-color: #04a696;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      color: white;
+      margin-bottom: 80px;
+
+      .redeem-date-time {
+        .redeem-lable {
+          font-size: 13px;
+        }
+        .redeem-value {
+          font-size: 14px;
+        }
+        .redeem-start {
+          font-size: 12px;
+        }
+      }
+      .validity-date {
+        .validity-lable {
+          font-size: 13px;
+        }
+        .validity-value {
+          font-size: 14px;
+        }
+        .redeem-end {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .detail-body1 {
+    padding: 10px 10px 0px 10px;
+
+    .food-time {
+      span {
+        color: #0d915e;
+        font-size: 18px;
+      }
+    }
+    .food-name {
+      margin: 10px 0px;
+      span {
+        font-size: 20px;
+        font-family: "roboto";
+        font-weight: 900;
+      }
+    }
+
+    .food-tk-details {
+      background-color: #ff75071a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      margin: 10px 0px;
+      padding: 10px 30px;
+      .ticket-name {
+        .ticket-lable {
+          span {
+            font-size: 12px;
+          }
+        }
+        .ticket-value {
+          span {
+            font-size: 16px;
+            color: rgb(208, 162, 77);
+          }
+        }
+      }
+      .ticket-count {
+        .count-lable {
+          span {
+            font-size: 12px;
+          }
+        }
+        .count-value {
+          span {
+            font-size: 16px;
+            color: rgb(189, 16, 16);
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .description-body {
+      .description {
+        margin: 10px 0px;
+        span {
+          color: black;
+          font-weight: 900;
+          font-size: 15px;
+        }
+      }
+      .description-content {
+        color: gray;
+        font-size: 13px;
+      }
+    }
+    .teams-condition {
+      .teams-head {
+        margin: 10px 0px;
+        span {
+          color: black;
+          font-weight: 900;
+          font-size: 15px;
+        }
+      }
+      .teams-list-body {
+        ul {
+          li {
+            color: rgb(53, 160, 218);
+            font-size: 13px;
+            span {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+    .ticket-validation-details {
+      background-color: #04a696;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      color: white;
+      margin-bottom: 80px;
+
+      .redeem-date-time {
+        .redeem-lable {
+          font-size: 13px;
+        }
+        .redeem-value {
+          font-size: 14px;
+        }
+        .redeem-start {
+          font-size: 12px;
+        }
+      }
+      .validity-date {
+        .validity-lable {
+          font-size: 13px;
+        }
+        .validity-value {
+          font-size: 14px;
+        }
+        .redeem-end {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .book-now-body {
+    position: absolute;
+    bottom: 60px;
+    background-color: #bbcfdb7a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+
+    .price {
+      .reduce-price {
+        span {
+          font-size: 13px;
+          color: gray;
+          text-decoration: line-through;
+        }
+      }
+      .sale-price {
+        span {
+          color: black;
+          font-family: "roboto";
+          font-weight: 900;
+        }
+      }
+    }
+    .book-now {
+      .book-Now-btn {
+        background-color: orange;
+        padding: 15px 30px;
+        border-radius: 10px;
+        span {
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
