@@ -136,6 +136,14 @@ function SideNav(props) {
         cartremove();
       }
     }
+
+    if (localStorage.getItem("tcreatet")) {
+      let tcount = JSON.parse(localStorage.getItem("tcreatet"))
+      if (tcount <= new Date().getTime()) {
+        removelocalall();
+      }
+      // console.log(new Date(tcount))
+    }
   }, 1000);
 
   const cartremove = () => {
@@ -145,6 +153,10 @@ function SideNav(props) {
     localStorage.removeItem('cartendTime');
     localStorage.removeItem("checkoutpage");
     localStorage.removeItem("selectedDate");
+    window.location.reload()
+  }
+  const removelocalall = () => {
+    localStorage.clear();
     window.location.reload()
   }
   const Logout = () => {

@@ -185,7 +185,7 @@ export class TicketDetails extends Component {
               </div>
 
               <div className='bottom-ticket-count'>
-                <div className='time-left'><span>Time Left {item.redeem_validity == 'Deadline' || item.redeem_validity == 'Any time' ? <></> :
+                <div className='time-left'><span>{item.redeem_validity == 'Deadline' || item.redeem_validity == 'Anytime' ?<></>:<>Time Left</> }{item.redeem_validity == 'Deadline' || item.redeem_validity == 'Anytime' ? <></> :
                   <> <Countdown date={new Date(item.booking_end)} renderer={renderer}></Countdown></>}</span></div>
                 <div className='item'><span> {item.is_limited == 1 ? `Ticket Count ${item.limited_quantity_count - item.booked_count}` : 'Unlimited'}</span></div>
               </div>
@@ -273,7 +273,7 @@ export class TicketDetails extends Component {
                   <div className="plus add-btn">  <HiPlusSm className="icon"
 
                     onClick={() =>
-                      counts["count" + item.ticket_id] < 3 ? item.limit ? limitCount["limitCount" + item.ticket_id] - limitbookedcount["limitbookedcount" + item.ticket_id] - counts["count" + item.ticket_id] > 0 ? (limitCount["limitCount" + item.ticket_id] - limitbookedcount["limitbookedcount" + item.ticket_id]) - counts["count" + item.ticket_id] <= 0 ? 0 :
+                      counts["count" + item.ticket_id] < 3 ? item.is_limited==1 ? limitCount["limitCount" + item.ticket_id] - limitbookedcount["limitbookedcount" + item.ticket_id] - counts["count" + item.ticket_id] > 0 ? (limitCount["limitCount" + item.ticket_id] - limitbookedcount["limitbookedcount" + item.ticket_id]) - counts["count" + item.ticket_id] <= 0 ? 0 :
                         itemPlus(
                           item.ticket_id,
                           item.discount == 1 ? item.discount_price : item.sale_price,

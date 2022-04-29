@@ -917,6 +917,7 @@ const backtocheckoutpage =()=>{
                   {this.state.buyTickertData.length > 0 ?
                     this.state.buyTickertData.map((data, key) => {
 
+                      // data[key].redeem_validity == 'Deadline' || data[key].redeem_validity == 'Any time' ? console.log("Specials")  : console.log(`${data[0].redeem_start} - ${data[0].redeem_end}` )
                       return (<>
                         {data.length > 0 ?
                           <div className="new-ticket-body" id="ticket-body">
@@ -925,11 +926,11 @@ const backtocheckoutpage =()=>{
                                 <div className="new-ticket-header">
                                   <div className="new-ticket-dot">  </div>
                                   <div className="new-ticket-time">
-                                    {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Any time' ? <><span>Specials</span></> : <span>{data[0].redeem_start} - {data[0].redeem_end} </span>}
-                                    {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Any time' ? <></> : <span>({data[0].meal_time})</span>}
+                                    {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Anytime' ? <><span>Specials</span></> : <span>{data[0].redeem_start} - {data[0].redeem_end} </span>}
+                                    {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Anytime' ? <></> : <span>({data[0].meal_time})</span>}
                                   </div>
                                   <div className="new-ticket-available">
-                                    <span> {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Any time' ? ` ${data.length}` + " " + "Specials" : <>{data.length} {data[0].meal_time}</>} Available</span>
+                                    <span> {data[0].redeem_validity == 'Deadline' || data[0].redeem_validity == 'Anytime' ? ` ${data.length}` + " " + "Specials" : <>{data.length} {data[0].meal_time}</>} Available</span>
                                   </div>
                                 </div> : <></>}
                               {data.length > 0 ? data.map((item, id) => {
@@ -962,7 +963,7 @@ const backtocheckoutpage =()=>{
                                         </div>
                                         <div className="ticket-top-right">
                                           <div>
-                                            <div className="ticket-food-mealtime"><span>{item.redeem_validity == 'Deadline' || item.redeem_validity == 'Any time' ? "Specials" : item.ticket_name}</span></div>
+                                            <div className="ticket-food-mealtime"><span>{item.redeem_validity == 'Deadline' || item.redeem_validity == 'Anytime' ? "Specials" : item.ticket_name}</span></div>
                                             <div className="ticket-food-name"><span>{item.item_name}</span></div>
                                           </div>
                                           <div className="ticket-food-type">
@@ -974,9 +975,9 @@ const backtocheckoutpage =()=>{
                                       <div className="ticket-center-box">
                                         <div className="center-dot"></div>
                                         <div className="time-left-body">
-                                          <div className="time-left-count"> {item.redeem_validity == 'Deadline' || item.redeem_validity == 'Any time' ? <></> :
+                                          <div className="time-left-count"> {item.redeem_validity == 'Deadline' || item.redeem_validity == 'Anytime' ? <></> :
                                             <> <Countdown date={new Date(item.booking_end)} renderer={renderer}></Countdown></>}</div>
-                                          {item.redeem_validity == 'Deadline' || item.redeem_validity == 'Any time' ? <>{""}</> :
+                                          {item.redeem_validity == 'Deadline' || item.redeem_validity == 'Anytime' ? <>{""}</> :
                                             <> <div className="time-left-text">Time Left</div></>}
                                         </div>
                                         <div className="ticket-left-body">
@@ -1096,6 +1097,7 @@ const backtocheckoutpage =()=>{
                             {cartDetails ? (
                               cartDetails.length > 0 ? (
                                 cartDetails.map((item, index) => {
+     
                                   return (
                                     <div
                                       className="FoodItem"
@@ -1128,7 +1130,7 @@ const backtocheckoutpage =()=>{
                                         />
                                         <span className="Ticket_qnt-val">
                                           <span>{item.itemQty}</span>
-                                          {/* {"====",console.log(counts["count"+item.itemId] < 3)} */}
+                                       
                                         </span>
                                         <FaPlusCircle
                                           className="plus_btn"
@@ -1136,14 +1138,14 @@ const backtocheckoutpage =()=>{
 
 
                                           onClick={() =>
-                                            counts["count" + item.itemId] < 3 ? item.limit ? limitCount["limitCount" + item.itemId] - limitbookedcount["limitbookedcount" + item.itemId] - cartcountdb["cartcountdb" + item.itemId] > 0 ? (limitCount["limitCount" + item.itemId] - limitbookedcount["limitbookedcount" + item.itemId]) - cartcountdb["cartcountdb" + item.itemId] <= 0 ? 0 :
+                                            counts["count" + item.itemId] < 3 ? item.limit ? limitCount["limitCount" + item.itemId] - limitbookedcount["limitbookedcount" + item.itemId] - counts["count" + item.itemId]   > 0 ? (limitCount["limitCount" + item.itemId] - limitbookedcount["limitbookedcount" + item.itemId]) - counts["count" + item.itemId] <= 0 ? 0 :
                                               this.itemPlus(
                                                 item.itemId,
                                                 item.itemPrice,
                                                 item.itemName,
                                                 item.itemFoodType
 
-                                              ) : '' :
+                                              )  :'' :
                                               this.itemPlus(
                                                 item.itemId,
                                                 item.itemPrice,

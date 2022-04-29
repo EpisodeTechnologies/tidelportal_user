@@ -14,7 +14,7 @@ var initialState = {
 
 const cartreducer = (state = initialState, action) => {
 
-  console.log(action)
+  // console.log(action)
   switch (action.type) {
     case "GET_BUSINESS_CATEGORY":
 
@@ -64,7 +64,7 @@ const cartreducer = (state = initialState, action) => {
         cartTotalAmt: state.vegTotalAmt + state.nonVegTotalAmt,
       };
     case "ticketSuccess":
-      console.log('ticketSuccess');
+      // console.log('ticketSuccess');
       return {
         ...state,
         vegvalue: 0,
@@ -75,7 +75,7 @@ const cartreducer = (state = initialState, action) => {
         cartTotalAmt: 0,
       };
       case "discountCalculator":
-        console.log('discountCalculator');
+        // console.log('discountCalculator');
         return {
           ...state,
           discount:action.payload,

@@ -88,6 +88,20 @@ height: 100vh;
   color: #ccc;
   font-weight: 300;
 }
+.phoneNUmberinput {
+  padding: 15px 20px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+.phoneNUmberinput::placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
 .cta-btn {
   background-color: #c6351e;
   color: white;

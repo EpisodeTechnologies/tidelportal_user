@@ -219,8 +219,8 @@ function TicketManager() {
     let FinalData = []
     let filter1var = var1;
     let filter2var = var2;
-    console.log("filter1var-->", filter1var)
-    console.log("filter2var-->", filter2var)
+    // console.log("filter1var-->", filter1var)
+    // console.log("filter2var-->", filter2var)
 
     if (ticketDetails) {
 
@@ -399,7 +399,7 @@ function TicketManager() {
 
   }
 
-  console.log("finalData--->", finalData)
+  // console.log("finalData--->", finalData)
 
   let finalData1 = finalData;
   const reverseOrder = (e) => {
@@ -473,7 +473,7 @@ function TicketManager() {
               {finalData1 ? (
 
                 finalData1.map((data) => {
-                  console.log('FinalData->>', data.id)
+                  // console.log('FinalData->>', data.id)
 
                   if (data.booking_status == "redeemed") {
                     var createdate = moment(data.create_at).format("MMM DD-YYYY ");

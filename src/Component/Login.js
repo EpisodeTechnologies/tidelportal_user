@@ -86,6 +86,10 @@ function Login(props) {
 
             // console.log(res.data.data)
             localStorage.setItem("token", res.data.token);
+            var EndTime = new Date().getTime();
+            // localStorage.setItem("cartendTime", EndTime + + 300000);
+            localStorage.setItem("tcreatet",EndTime + 252000000);
+
             localStorage.setItem("user_login_details", JSON.stringify(res.data.data));
             setLoader(false);
             // History.push("/");
@@ -136,7 +140,7 @@ function Login(props) {
                 <b>User Name</b>
               </label>
               <input
-                id="phoneNUmberinput"
+                className="phoneNUmberinput"
                 value={email}
                 // onKeyPress={Login}
                 onChange={(e) => { setemail(e.target.value); setLoader(false) }}
@@ -154,7 +158,7 @@ function Login(props) {
 
               <div style={{ position: "relative" }}>
                 <input
-                  id="phoneNUmberinput"
+                  className="phoneNUmberinput"
                   type={passShow ? "password" : "text"}
                   placeholder=" Enter New Password"
                   name="UserPNumber"
@@ -214,7 +218,7 @@ function Login(props) {
               </label>
 
               <input
-                id="phoneNUmberinput"
+                className="phoneNUmberinput"
                 value={ForgotpasswordEmailid}
                 // onKeyPress={Numberotp}
                 onChange={(e) => setForgotpasswordEmailid(e.target.value)}

@@ -58,25 +58,25 @@ class checkout extends React.Component {
       passShow: true,
       applyedCouponCode: "",
       loadingSpring: "none",
-      cartupdate:0
+      cartupdate: 0
 
     };
   }
   componentDidMount() {
     // const user = JSON.parse(localStorage.getItem("user"));
 
-     if(localStorage.getItem("checkoutpage")){
-      
-    if (localStorage.getItem("cart")) {
-      this.setState({ cart: JSON.parse(localStorage.getItem("cart")) });
+    if (localStorage.getItem("checkoutpage")) {
+
       if (localStorage.getItem("cart")) {
-        let cartDetails = JSON.parse(localStorage.getItem("cart"));
-        let cartList = JSON.parse(localStorage.getItem("cartList"));
-        // console.log(cartList.totalAmount);
-        this.setState({ Price: parseInt(cartList.totalAmount) });
+        this.setState({ cart: JSON.parse(localStorage.getItem("cart")) });
+        if (localStorage.getItem("cart")) {
+          let cartDetails = JSON.parse(localStorage.getItem("cart"));
+          let cartList = JSON.parse(localStorage.getItem("cartList"));
+          // console.log(cartList.totalAmount);
+          this.setState({ Price: parseInt(cartList.totalAmount) });
+        }
       }
-    }
-  } else {
+    } else {
       history.push("/");
     }
     var localvar = JSON.parse(localStorage.getItem("user_login_details"));
@@ -233,16 +233,16 @@ class checkout extends React.Component {
   };
 
   render() {
-  //   setTimeout(function () {
-  //     cartremove()
-  //   }, 300000
-  //   );
+    //   setTimeout(function () {
+    //     cartremove()
+    //   }, 300000
+    //   );
 
-  // const cartremove=()=>{
-  //   localStorage.removeItem('cart');
-  //   localStorage.removeItem('cartList');
-  //   this.forceUpdate()
-  // }
+    // const cartremove=()=>{
+    //   localStorage.removeItem('cart');
+    //   localStorage.removeItem('cartList');
+    //   this.forceUpdate()
+    // }
 
     // console.console.log( this.state.User_Id);
     const user = JSON.parse(localStorage.getItem("user"));
@@ -461,6 +461,48 @@ class checkout extends React.Component {
 
     // razorpay  start function
     // const [name, setName] = useState('Mehul')
+
+    const checkCost = (e) => {
+
+      let cart = JSON.parse(localStorage.getItem('cart'));
+      let { totalAmount, totalItemcount } = JSON.parse(localStorage.getItem('cartList'));
+      var token = localStorage.getItem("token");
+      let tickets = []
+
+      cart.map((data, key) => {
+        let ticket = {
+          "ticketId": data.itemId,
+          "count": data.itemQty
+        }
+        tickets.push(ticket);
+      })
+      axios.post(apibaseURL + "/tickets/checkTicketCost", {
+        "tickets": tickets,
+        "couponApplied": this.state.applyedCouponCode == '' ? false : true,
+        "couponcode": this.state.applyedCouponCode == '' ? '' : this.state.applyedCouponCode
+      }, { headers: { authorization: token } })
+        .then((res) => {
+          console.log('checkamount', res)
+
+          if (res.data.status = "200") {
+
+            if (res.data.data.totalcost == totalAmount) {
+              displayRazorpay(res.data.data.totalcost)
+            }else{
+              alert("something wrong")
+            }
+          } else {
+            alert(res.data.message)
+          }
+
+
+        })
+
+
+    }
+
+
+
     function loadScript(src) {
       return new Promise((resolve) => {
         const script = document.createElement("script");
@@ -478,7 +520,9 @@ class checkout extends React.Component {
     const __DEV__ = document.domain === "localhost";
     var user_id = this.state.User_Id;
     var applyedCouponCode = this.state.applyedCouponCode;
-    async function displayRazorpay() {
+    async function displayRazorpay(amount) {
+
+      console.log("amount", amount)
       const res = await loadScript(
         "https://checkout.razorpay.com/v1/checkout.js"
       );
@@ -495,7 +539,7 @@ class checkout extends React.Component {
       // rzp_test_7k2E5AZGf8muFK indra
       const options = {
         key: "rzp_test_7k2E5AZGf8muFK", // Enter the Key ID generated from the Dashboard
-        amount: payment_amt * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        amount: amount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: "INR",
         name: "Tidel Party",
         // description: "Test Transaction",
@@ -557,7 +601,7 @@ class checkout extends React.Component {
         "couponApplied": applyedCouponCode == '' ? false : true,
         "couponcode": applyedCouponCode,
         "tickets": tickets,
-        "cartId": localStorage.getItem('cartId')?localStorage.getItem('cartId'):''
+        "cartId": localStorage.getItem('cartId') ? localStorage.getItem('cartId') : ''
       }
       axios
         .post(apibaseURL + "/tickets/bookTicket", passData).then((res) => {
@@ -575,7 +619,7 @@ class checkout extends React.Component {
               .then((res) => {
                 localStorage.removeItem("cart");
                 localStorage.removeItem("cartList");
-                localStorage.removeItem("discountPrice");     
+                localStorage.removeItem("discountPrice");
                 localStorage.removeItem('cartendTime');
                 localStorage.removeItem("checkoutpage");
                 localStorage.removeItem("selectedDate");
@@ -583,7 +627,7 @@ class checkout extends React.Component {
 
 
                   history.push("/ticketmanager");
-                },2000)
+                }, 2000)
               });
           }
         })
@@ -668,13 +712,13 @@ class checkout extends React.Component {
     let limitCount;
     let limitbookedcount;
     let cartcountdb;
- 
+
     if (localStorage.getItem('LimitCount')) {
       var LimitCount = JSON.parse(localStorage.getItem('LimitCount'));
       counts = LimitCount.counts;
       limitCount = LimitCount.limitCount;
       limitbookedcount = LimitCount.limitbookedcount
-      cartcountdb=LimitCount.cartcountdb
+      cartcountdb = LimitCount.cartcountdb
       // console.log("LimitCount-->>>>", LimitCount)
     }
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
@@ -914,7 +958,7 @@ class checkout extends React.Component {
                         </div>
                         <span class="Razor-Pay">Razor Pay</span>
 
-                        <div class="Union-39" onClick={() => { displayRazorpay(); }}>
+                        <div class="Union-39" onClick={() => { checkCost(); }}>
                           {" "}
                           <span class="Pay-699">
                             Pay ₹
@@ -1068,9 +1112,9 @@ class checkout extends React.Component {
                         ₹ {cartList ? cartList.totalAmount - discountPrice : 0}
                       </span>
                     </div>
-                    <div style={{display:"flex",justifyContent:'center',alignItems:'center',padding:'0px 0px 20px 0px ',color:'white'}}>
+                    <div style={{ display: "flex", justifyContent: 'center', alignItems: 'center', padding: '0px 0px 20px 0px ', color: 'white' }}>
                       <div>
-                       Time Left - <span><Countdown date={new Date(JSON.parse(localStorage.getItem('cartendTime')))} renderer={renderer}></Countdown></span>
+                        Time Left - <span><Countdown date={new Date(JSON.parse(localStorage.getItem('cartendTime')))} renderer={renderer}></Countdown></span>
                       </div>
 
                     </div>
