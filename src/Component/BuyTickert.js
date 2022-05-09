@@ -948,7 +948,6 @@ const backtocheckoutpage =()=>{
                                 limitbookedcount["limitbookedcount" + item.ticket_id] = item.is_limited == 1 ? item.booked_count : 0;
                                 cartcountdb["cartcountdb" + item.ticket_id] = item.is_limited == 1 ? item.cart_count : 0;
 
-                                // let limitCount = {};
                                 // let limitbookedcount = {};
                                 localStorage.setItem('LimitCount', JSON.stringify({ limitCount, limitbookedcount, counts, cartcountdb }));
                                 let image = JSON.parse(item.image)

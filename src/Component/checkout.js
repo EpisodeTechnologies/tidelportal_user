@@ -330,6 +330,13 @@ class checkout extends React.Component {
               this.setState({ loader: false });
               this.setState({ reload: false });
               updateData();
+
+              localStorage.setItem("token", res.data.token);
+              var EndTime = new Date().getTime();
+              // localStorage.setItem("cartendTime", EndTime + + 300000);
+              localStorage.setItem("tcreatet", EndTime + 252000000);
+
+
               // History.push("/");
             } else {
               // this.state.CorrectNumber(res.data.message)
@@ -466,6 +473,10 @@ class checkout extends React.Component {
 
       let cart = JSON.parse(localStorage.getItem('cart'));
       let { totalAmount, totalItemcount } = JSON.parse(localStorage.getItem('cartList'));
+      if (localStorage.getItem('discountPrice')) {
+        let { price } = JSON.parse(localStorage.getItem('discountPrice'));
+        totalAmount = totalAmount - price
+      }
       var token = localStorage.getItem("token");
       let tickets = []
 
@@ -482,15 +493,26 @@ class checkout extends React.Component {
         "couponcode": this.state.applyedCouponCode == '' ? '' : this.state.applyedCouponCode
       }, { headers: { authorization: token } })
         .then((res) => {
-          console.log('checkamount', res)
+          // console.log('checkamount', res)
 
           if (res.data.status = "200") {
 
-            if (res.data.data.totalcost == totalAmount) {
-              displayRazorpay(res.data.data.totalcost)
+
+            // alert(res.data.data)
+            // console.log(`${res.data.data.totalcost}`)
+
+            var x = window.matchMedia("(max-width: 971px)");
+            if (x.matches) {
+              displayRazorpay(totalAmount)
             }else{
+            if (res.data.data.totalcost == totalAmount) {
+              // console.log(res.data.data.totalcost)
+              // alert(res.data.data.totalcost)
+              displayRazorpay(res.data.data.totalcost)
+            } else {
               alert("something wrong")
             }
+          }
           } else {
             alert(res.data.message)
           }
@@ -624,10 +646,8 @@ class checkout extends React.Component {
                 localStorage.removeItem("checkoutpage");
                 localStorage.removeItem("selectedDate");
                 setTimeout(() => {
-
-
                   history.push("/ticketmanager");
-                }, 2000)
+                }, 1000)
               });
           }
         })

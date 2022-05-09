@@ -1,6 +1,7 @@
 {
   "name": "user",
   "version": "0.1.0",
+  "homepage": "https://tidelpark.pannaiyarbiriyani.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
